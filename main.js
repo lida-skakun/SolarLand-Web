@@ -20,6 +20,7 @@ button.addEventListener("click", function () {
     navigation.classList.add("visible-element");
     navigation.classList.remove("hidden-element");
   } else {
-    navigation.style.display = "none";
+    navigation.classList.remove("visible-element");
+    navigation.classList.add("hidden-element");
   }
 });
