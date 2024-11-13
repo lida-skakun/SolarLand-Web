@@ -496,12 +496,12 @@ footer hr {
 .hidden-element {
   max-height: 0;
   overflow: hidden;
-  transition: max-height ease-in 0.3s;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 
 .visible-element {
   max-height: 1000vh;
-  transition: max-height ease-in 0.3s;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 
 @media (max-width: 1200px) {
